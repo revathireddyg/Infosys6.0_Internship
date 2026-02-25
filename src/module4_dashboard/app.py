@@ -109,7 +109,7 @@ with st.sidebar:
 
 # --- 4. TOP: DYNAMIC KPI ROW ---
 t_total, t_critical, df_status, df_prod = fetch_live_insights()
-st.title("AI Intelligence Support for Enterprise appliations")
+st.title("AI Intelligence Support for Enterprise applications")
 
 k1, k2, k3, k4 = st.columns(4)
 with k1: 
