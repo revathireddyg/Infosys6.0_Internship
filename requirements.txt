@@ -1,0 +1,19 @@
+# CORE UTILITIES
+python-dotenv
+pandas
+tqdm
+
+# NEO4J & DATABASE
+neo4j
+
+# AI & RAG (LANGCHAIN CORE & PARTNERS)
+langchain
+langchain-core
+langchain-community
+langchain-groq
+langchain-huggingface
+sentence-transformers
+
+# DASHBOARD & VISUALIZATION
+streamlit
+plotly

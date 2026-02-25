@@ -1,0 +1,19 @@
+# Virtual Environment (Thousands of unnecessary files)
+venv/
+env/
+lib/
+bin/
+
+# Secrets (Private Database Keys)
+.env
+
+# Python Cache
+__pycache__/
+*.py[cod]
+
+# Streamlit temporary files
+.streamlit/
+
+# pyviz
+graph.html
+*.html

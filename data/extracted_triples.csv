@@ -1,0 +1,499 @@
+Ticket_ID,Triples
+1,"Here are the extracted triples:
+
+1. [User, has_issue, product_purchased]
+2. [User, has_billing_zip_code, 71701]
+3. [User, requested, website_address]
+4. [User, has_email_address, unknown] 
+5. [User, tried, troubleshooting_steps]
+6. [User, has_manual, user_manual]"
+2,"Here are the extracted triples:
+
+1. [User, having an issue with, Product_purchased]
+2. [User, needs assistance with, Product_purchased]
+3. [Issue, is intermittent, Product_purchased]
+4. [Product_purchased, sometimes works fine, None]
+5. [Product_purchased, sometimes acts up unexpectedly, None]
+6. [User, is facing, Issue]"
+3,"Here are the extracted triples:
+
+1. {User}, has_problem, {product_purchased}
+2. {product_purchased}, is_not_turning_on, 
+3. {product_purchased}, was_working_fine, yesterday
+4. {product_purchased}, is_not_responding, 
+5. {User}, is_using, original_charger
+6. original_charger, came_with, {product_purchased}
+7. original_charger, is_not_charging_properly, {product_purchased}"
+4,"Here are the extracted triples:
+
+1. [User, has_issue, product_purchased]
+2. [User, is_interested_in, problem]
+3. [User, wants_to_see, Feedback]
+4. [User, has_contacted, customer_support]
+5. [Issue, remains_unresolved, true]"
+5,"Here are the extracted triples:
+
+1. [Customer, is having an issue with, product_purchased]
+2. [Seller, is not responsible for, damages arising out of delivery]
+3. [Customer, has noticed, sudden decrease in battery life]
+4. [Product_purchased, used to last, much longer]
+5. [Customer, has, product_purchased]"
+6,"Here are the extracted triples:
+
+1. [I, facing a problem with, my {product_purchased}]
+2. [my {product_purchased}, is not turning on, it]
+3. [it, was working fine until, yesterday]
+4. [my {product_purchased}, doesn't respond, it]
+5. [I, have checked for, any available software updates]
+6. [for my {product_purchased}, there are none, them]
+
+However, to make the triples more specific and accurate, we can assume that the product purchased is the subject. Here are the revised triples:
+
+1. [my {product_purchased}, has a problem, I]
+2. [my {product_purchased}, is not turning on, it]
+3. [my {product_purchased}, was working fine until, yesterday]
+4. [my {product_purchased}, doesn't respond, it]
+5. [I, have checked for, software updates for my {product_purchased}]
+6. [my {product_purchased}, has no software updates, it]
+
+Note: The product purchased is represented as {product_purchased} in the original text. To make the triples more specific, we can replace it with a specific product name if available."
+7,"Here are the extracted triples:
+
+1. [User, unable to access, Account]
+2. [Account, displays, 'Invalid Credentials' error]
+3. [User, using, correct login information]
+4. [User, unable to find, Option]
+5. [Option, related to, desired action]
+6. [User, seeking, guidance]
+7. [User, seeking, steps]"
+8,"Here are the extracted triples:
+
+1. [User, has_issue_with, product_purchased]
+2. [User, requests_assistance, User]
+3. [User, will_contact, suppliers]
+4. [User, will_confirm, suppliers]
+5. [User, will_investigate, inventory]
+6. [Inventory, has_status, stocked]
+7. [Inventory, has_status, other_reason]
+8. [User, performed_action, factory_reset]
+9. [User, performed_action_on, product_purchased]
+10. [Factory_reset, did_not_resolve, issue]"
+9,"Here are the extracted triples:
+
+1. [I, am having an issue with, {product_purchased}]
+2. [{product_purchased}, is not the exact type you might prefer, they use the exact same method for different uses]
+3. [I, need help, Please]
+4. [I, have recently updated the firmware of, {product_purchased}]
+5. [the issue, started happening after, the firmware update]
+6. [the firmware update, could be related to, the issue]
+
+However, if we consider the triples to be more formal and structured, we can represent them as follows:
+
+1. [I, have an issue with, {product_purchased}]
+2. [{product_purchased}, has a similar method for different uses]
+3. [I, request assistance, from you]
+4. [I, updated the firmware of, {product_purchased}]
+5. [the issue, is possibly caused by, the firmware update]
+6. [the firmware update, is related to, the issue]
+
+Note that the triples are extracted based on the given text, and the relationships between the entities are inferred based on the context."
+10,"Here are the extracted triples:
+
+1. [Product, has_issue, Hardware]
+2. [Product, is_making, Noises]
+3. [Product, is_not_functioning, Properly]
+4. [User, suspects, Hardware_issue]
+5. [User, requests, Help]
+6. [Issue, is_intermittent, Yes]
+7. [Product, sometimes_works, Fine]
+8. [Product, sometimes_acts_up, Unexpectedly]"
+11,"Here are the extracted triples:
+
+1. {product_purchased}, is related to, issue
+2. {product_purchased}, is related to, not charging properly
+3. Customer Service, is related to, best
+4. 1-800-799-0808, is related to, Customer Service
+5. original charger, is related to, came with, {product_purchased}"
+12,"Here are the extracted triples:
+
+1. [User, is having an issue with, product_purchased]
+2. [Support team, cannot find, text or product name]
+3. [User, has reviewed, troubleshooting steps]
+4. [User, has visited, official support website]
+5. [Troubleshooting steps, did not resolve, problem]"
+13,"Here are the extracted triples:
+
+1. [Customer, is_like, Best_Customer]
+2. [Customer, has_noticed, Issue]
+3. [Issue, occurs_consistently_with, Specific_Feature]
+4. [Specific_Feature, is_used_with, Product_Purchased]
+5. [Customer, has_met, Product_Purchased]
+6. [Customer, has, Product_Purchased]"
+14,"Based on the given text, I can extract the following triples:
+
+1. {product_purchased}, has issue, fails to connect to any available networks.
+2. {product_purchased}, is concerned about, security.
+3. {product_purchased}, has field, 'Product_IP'.
+4. {product_purchased}, has data, is safe.
+
+However, since 'Product_IP' is not directly related to the main issue of the text, and 'is safe' is a vague statement, I would suggest the following refined triples:
+
+1. {product_purchased}, has issue, fails to connect to any available networks.
+2. {product_purchased}, is concerned about, security.
+3. {product_purchased}, has field, 'Product_IP'.
+
+These triples capture the main points of the text and provide a clear understanding of the issue and the concern."
+15,"Here are the extracted triples:
+
+1. [TPUBASK3E3KQ0, is_product, true]
+2. [TPUBASK3E3KQ0, has_name, Product Name: TPUBASK3E3KQ0]
+3. [User, has_product, TPUBASK3E3KQ0]
+4. [User, joined_on, Oct 2007]
+5. [User, has_posts, 11,532]
+6. [User, made_quote, I've recently updated the firmware of my {product_purchased}, and the issue started happening afterward. Could it be related to the update?]
+7. [TPUBASK3E3KQ0, is_related_to, firmware_update]
+8. [firmware_update, caused_issue, true]"
+16,"Here are the extracted triples:
+
+1. [User, having an issue with, product_purchased]
+2. [User, might have already paid for, product_purchased]
+3. [Donations, will go straight to, spectators]
+4. [User, noticed a sudden decrease in, battery life]
+5. [Battery life, used to last, much longer]"
+17,"Here are the extracted triples:
+
+1. [User, is having an issue with, product_purchased]
+2. [User, is concerned about, security of product_purchased]
+3. [User, would like to, ensure data is safe]
+4. [User, purchased, product_purchased]
+5. [User, purchased from, store or local retailer]"
+18,"Here are the extracted triples:
+
+1. [Product_purchased, is the subject of, Issue]
+2. [User, is having, Issue with Product_purchased]
+3. [User, has reviewed, Troubleshooting steps]
+4. [Troubleshooting steps, are on, Official support website]
+5. [Troubleshooting steps, did not, Resolve the problem]
+6. [Official support website, is the source of, Troubleshooting steps]"
+19,"Here are the extracted triples:
+
+1. [Subject: {product_purchased}, Relationship: is associated with, Object: issue]
+2. [Subject: {product_purchased}, Relationship: has, Object: intermittent issue]
+3. [Subject: {product_purchased}, Relationship: causes, Object: unexpected behavior]
+4. [Subject: {product_purchased}, Relationship: is related to, Object: YouTube community membership]
+5. [Subject: {product_purchased}, Relationship: is used for, Object: community participation]
+
+Note: The subject '{product_purchased}' is assumed to be a product or a service that the user has purchased."
+20,"Here are the extracted triples:
+
+1. [Customer, has_issue_with, product_purchased]
+2. [Customer, requested_assistance, None]
+3. [Customer, purchased_from, Apple]
+4. [Customer, has_spouse, Husband]
+5. [Husband, took_order_from, Apple]
+6. [Customer, checked_for_updates, product_purchased]
+7. [product_purchased, has_updates, None]"
+21,"Here are the extracted triples:
+
+1. {product_purchased}, has_name, Microsoft Surface Pro.
+2. {product_purchased}, has_version, 1.10.2
+3. {product_purchased}, has_usage, I've checked for any available software updates for my {product_purchased}, but there are none."
+22,"Here are the extracted triples:
+
+1. [I, have, an issue]
+2. [I, am having, an issue with the {product_purchased}]
+3. [You, have tried, different settings]
+4. [You, have tried, different settings and configurations]
+5. [You, have tried, different settings and configurations on my {product_purchased}]
+6. [The email address, should change to, customer@julietr.com]
+7. [The email address, should change to, customer@julietr.com as there is a unique id number unique for each product]
+8. [There is, a unique id number, unique for each product]
+
+However, if we consider the product as the main subject, we can simplify the triples:
+
+1. [Product, is the subject of, an issue]
+2. [Product, has, a unique id number]
+3. [Product, has, a unique id number for each product]
+4. [Email address, should change to, customer@julietr.com]
+5. [Customer, has, an email address of customer@julietr.com]
+6. [Customer, has, a unique id number]
+7. [Customer, has, a unique id number for each product]
+8. [I, have, an issue with the product]
+9. [You, have tried, different settings and configurations on the product]"
+23,"Here are the extracted triples:
+
+1. {User}, has_issue, {product_purchased}
+2. {User}, requests_assistance, {product_purchased}
+3. {User}, has_option, update_version
+4. {User}, should_update_to, version_3.0
+5. {User}, is_experiencing, intermittent_issue
+6. {product_purchased}, causes, intermittent_issue
+7. {product_purchased}, sometimes, works_fine
+8. {product_purchased}, sometimes, acts_up_unexpectedly"
+24,"Here are the extracted triples:
+
+1. [I, have, an issue with the {product_purchased}]
+   - This triple can be rewritten as: [I, have an issue with, {product_purchased}]
+
+2. [I, performed a factory reset on my {product_purchased}]
+   - This triple can be rewritten as: [I, performed a factory reset on, {product_purchased}]
+
+3. [I, took care of those]
+   - This triple can be rewritten as: [I, took care of, those]
+
+4. [I, hoping it would resolve the problem]
+   - This triple can be rewritten as: [I, was hoping it would resolve the problem]
+
+5. [it, didn't help]
+   - This triple can be rewritten as: [it, didn't help]
+
+However, if we consider the product as the main subject, we can extract the following triples:
+
+1. [{product_purchased}, was purchased by, I]
+2. [{product_purchased}, was reset, I]
+3. [{product_purchased}, didn't resolve the problem, I]
+
+Note: The product name is not explicitly mentioned in the text, so it's represented as {product_purchased} in the triples."
+25,"Here are the extracted triples:
+
+1. [I, have an issue with, {product_purchased}]
+2. {product_purchased}, does not represent, price
+3. {product_purchased}, does not represent, price received by the day immediately before the shipment date
+4. I, noticed a sudden decrease in, battery life on my {product_purchased}
+5. {product_purchased}, used to last, much longer"
+26,"Here are the extracted triples:
+
+1. [User, has_product, product_purchased]
+2. [product_purchased, is_making, strange_noises]
+3. [product_purchased, is_not_functioning, properly]
+4. [User, suspects, hardware_issue]
+5. [User, requests_help, User]
+6. [User, thanks, User]
+7. [User, is_experiencing, issue]
+8. [issue, is_on, multiple_devices]
+9. [multiple_devices, are_of, same_model]
+10. [same_model, is_a, widespread_problem]"
+27,"Here are the extracted triples:
+
+1. [User, encounters, software_bug]
+2. [software_bug, occurs_in, product_purchased]
+3. [User, tries, specific_action]
+4. [specific_action, causes, application_crash]
+5. [User, searches_for, updates]
+6. [User, searches_for, fixes]
+7. [product_purchased, runs_on, Windows_Vista]
+8. [Windows_Vista, supports, factory_reset]
+9. [User, performs, factory_reset]
+10. [factory_reset, resolves, software_bug]"
+28,"Here are the extracted triples:
+
+1. [Product_purchased, Must_be, Valid_email_address]
+2. [Product_purchased, Are_valid_for, One_week_in_advance]
+3. [Product_purchased, Must_be, Made_quickly]
+4. [Issue, Is_intermittent, True]
+5. [Issue, Acts_up, Unexpectedly]
+6. [Issue, Sometimes_works, Fine]"
+29,"Here are the extracted triples:
+
+1. {Consumer}, has_issue_with, {product_purchased}
+2. {Consumer}, is_assisting, {Microsoft}
+3. {Microsoft}, released_statement, {Consumer_group}
+4. {Consumer}, made_purchase_using, {contract_with_I}
+5. {Consumer}, is_using, {original_charger}
+6. {original_charger}, came_with, {product_purchased}
+7. {product_purchased}, is_not_charging_properly, {properly}"
+30,"Here are the extracted triples:
+
+1. [Subject: I'm having an issue with, Relationship: refers to, Object: product_purchased]
+2. [Subject: product_purchased, Relationship: has, Object: missing content]
+3. [Subject: I've already contacted, Relationship: contacted, Object: customer support]
+4. [Subject: customer support, Relationship: has, Object: multiple times]
+5. [Subject: issue, Relationship: remains, Object: unresolved]"
+31,"Here are the extracted triples:
+
+1. [User, is having an issue with, product_purchased]
+2. [User, is using, brand new product]
+3. [User, has purchased, brand new product]
+4. [User, is using, specific feature or application]
+5. [User, is using, product_purchased]
+6. [Issue, occurs consistently with, specific feature or application]"
+32,"Here are the extracted triples:
+
+1. [Customer, has_issue_with, product_purchased]
+2. [Seller, sold_item_for, $29.89]
+3. [Customer, contacted, customer_support]
+4. [Customer, has_contacted_multiple_times, customer_support]
+5. [Customer, issue_remains_unresolved, product_purchased]
+6. [Customer, will_receive, replacement]
+7. [Customer, will_exchange_item_for, full_refund]
+8. [Customer, will_exchange_item_for, exchange]"
+33,"Here are the extracted triples:
+
+1. [User, has_issue, software_bug]
+2. [software_bug, affects, product_purchased_app]
+3. [software_bug, causes, data_loss]
+4. [software_bug, causes, unexpected_errors]
+5. [User, needs, assistance]
+6. [User, is_affected_by, software_bug]
+7. [software_bug, is_affecting, User's_work]
+8. [software_bug, is_affecting, User's_productivity]"
+34,"Here are the extracted triples:
+
+1. [I, am having an issue with, {product_purchased}]
+2. [Vendor, should take the time to, Remove the product from your account]
+3. [Vendor, should notify, consumers]
+4. [Vendor, should call, consumers]
+5. [I, am concerned about, security of my {product_purchased}]
+6. [I, would like to ensure, my data is safe]"
+35,"Here are the extracted triples:
+
+1. [I, having an issue with, {product_purchased}]
+2. [We, are in, the first day at the {product_purchased}]
+3. [I, recently updated the firmware of my {product_purchased}]
+4. [I, have the issue started happening after, the firmware update]
+5. [Could it be related to, the firmware update]
+
+However, to make the triples more specific and complete, we can make some assumptions about the relationships:
+
+1. [I, have an issue with, {product_purchased}]
+2. [We, are at, {product_purchased}]
+3. [I, updated the firmware of, {product_purchased}]
+4. [The issue started happening after, I updated the firmware of {product_purchased}]
+5. [The issue may be related to, the firmware update of {product_purchased}]
+
+Note that the subject ""I"" and ""We"" are not explicitly defined in the text, so we assume they are the users or customers. The relationship ""having an issue with"" is also not explicitly defined, so we assume it's a problem or a complaint."
+36,"Here are the extracted triples:
+
+1. [Product, Belongs to, User]
+2. [Product, Fails to, Connect to networks]
+3. [User, Seeks, Troubleshooting steps]
+4. [Product, Has, Issue with network connection]
+5. [Product, Has, Decreased battery life]
+6. [Product, Used to, Have longer battery life]
+7. [User, Owns, Product]
+8. [Product, Exhibits, Sudden decrease in battery life]"
+37,"Here are the extracted triples:
+
+1. [Customer, has_issue_with, product_purchased]
+2. [Customer, needs_support_from, Support]
+3. [Customer, cannot_ask_for_support, before_item_arrival]
+4. [Customer, has_followed, troubleshooting_steps]
+5. [Customer, has_referenced, user_manual]
+6. [Customer, has_issue, persists]"
+38,"Here are the extracted triples:
+
+1. {User}, has forgotten, {password}.
+2. {password reset option}, is not working, for {User}.
+3. {User}, wants to recover, {account}.
+4. {User}, can reset, by entering {password}.
+5. {password}, is expired, for {User}.
+6. {User}, has recently updated, {firmware}.
+7. {firmware update}, may be related, to {issue}.
+8. {issue}, started happening, after {firmware update}.
+
+Note: {product_purchased} and {account} are not explicitly mentioned as entities in the text, but they can be inferred as the subject of the text. I have used placeholders to represent them."
+39,"Here are the extracted triples:
+
+1. {User}, has_issue, {product_purchased}
+2. {User}, needs, {purchase_refund}
+3. {ZEROHITS}, offers, {purchase_refund}
+4. {product_purchased}, lacks, {option_to_purchase_refund}
+5. {User}, requests, {guidance_through_steps}
+6. {product_purchased}, is, {issue_source}"
+40,"Here are the extracted triples:
+
+1. [Subject: User, Relationship: has, Object: issue]
+2. [Subject: User, Relationship: purchased, Object: product_purchased]
+3. [Subject: User, Relationship: has, Object: account]
+4. [Subject: User, Relationship: is, Object: new_user]
+5. [Subject: User, Relationship: is, Object: concerned]
+6. [Subject: User, Relationship: wants, Object: ensure]
+7. [Subject: User, Relationship: has, Object: data]
+8. [Subject: User, Relationship: wants, Object: security]
+9. [Subject: System, Relationship: threw, Object: error]
+10. [Subject: Error, Relationship: contains, Object: message]
+11. [Subject: Error, Relationship: contains, Object: System.CollectedMessage.ThrowBack]
+12. [Subject: User, Relationship: has, Object: product_purchased]"
+41,"Here are the extracted triples:
+
+1. {User}, has, {product_purchased}
+2. {product_purchased}, fails to, connect to any available networks
+3. {User}, should take, troubleshoot this issue
+4. {User}, should, resolve this issue
+5. {User}, is, not
+6. {User}, uses, a specific feature or application
+7. {product_purchased}, has, this issue
+8. {User}, has, {product_purchased}
+
+Note: {product_purchased} is a placeholder for the actual product name, which is not specified in the text."
+42,"Here are the extracted triples:
+
+1. {product_purchased}, has_problem, [problem_description]
+2. {product_purchased}, is_not_turning_on, [true]
+3. {product_purchased}, was_working_fine, [yesterday]
+4. {product_purchased}, has_intermittent_issue, [true]
+5. {product_purchased}, sometimes_works_fine, [true]
+6. {product_purchased}, acts_up_unexpectedly, [true]
+
+Note: Since the text does not explicitly mention the product name, I used ""{product_purchased}"" as the subject in the triples. If you have the actual product name, you can replace it accordingly."
+43,"Here are the extracted triples:
+
+1. [User, has_issue_with, product_purchased]
+2. [product_purchased, does_not_exist_on, user's_product]
+3. [user, has_product, user's_product]
+4. [product_purchased, needs_configuration, by_user]
+5. [User, requires_assistance, as soon as possible]
+6. [issue_with_product_purchased, affects, User's work and productivity]"
+44,"Here are the extracted triples:
+
+1. [I, am having an issue with, {product_purchased}]
+2. [The issue, occurred after, Amazon started a tool]
+3. [The issue, occurred after, updating the firmware of my {product_purchased}]
+4. [The issue, could be related to, the update]
+5. [The product, is not, related to the update]"
+45,"Here are the extracted triples:
+
+1. [User, is_having_issue_with, product_purchased]
+2. [User, wants, picture_for_3DS]
+3. [User, bought, lot_of_items]
+4. [User, found, online_cart]
+5. [User, found, Fountain_of_Dreams_Collection]
+6. [User, is_unable_to_find, option_to_perform_desired_action]
+7. [User, needs, guidance_through_steps]"
+46,"Here are the extracted triples:
+
+1. [User, having an issue with, product_purchased]
+2. [User, asking to update, product_purchased]
+3. [User, concerned about, security of product_purchased]
+4. [User, would like to ensure, data is safe]
+5. [User, having an issue with, 1.0 patch]"
+47,"Here are the extracted triples:
+
+1. [User, has_issue_with, product_purchased]
+2. [User, needs_assistance, as soon as possible]
+3. [User, is_affected_by, work and productivity]
+4. [User, requires_information, address and name for product_purchased]
+5. [User, should_contact, website]
+6. [User, should_contact_alternatively, us]"
+48,"Here are the extracted triples:
+
+1. [Product_purchased, is_related_to, Issue]
+2. [Product_purchased, is_not_found_on, Site]
+3. [Product_purchased, should_not_come_from, Site]
+4. [Product_purchased, has_description, Product_Description]
+5. [Issue, is_experienced_on, Multiple_devices]
+6. [Issue, is_a, Widespread_problem]"
+49,"Here are the extracted triples:
+
+1. [User, is_having_issue_with, product_purchased]
+2. [User, requests_assistance, Support]
+3. [User, is_unable_to_find, option_to_perform_desired_action]
+4. [User, requests_guidance, steps_to_perform_action]
+5. [User, requests_contact, Support]"
+50,"Here are the extracted triples:
+
+1. [Customer, has_issue, product_purchased]
+2. [Customer, should_contact, Customer Service]
+3. [Customer, should_call, 303.938.2837]
+4. [Customer, is_concerned_about, security_of_product_purchased]
+5. [Customer, wants_to, ensure_data_is_safe]"
