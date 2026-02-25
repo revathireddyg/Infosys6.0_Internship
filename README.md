@@ -25,14 +25,14 @@ The application is deployed and accessible via Streamlit Community Cloud:
 
 | 1. Dashboard KPIs | 2. AI Chat Interface |
 | :---: | :---: |
-| ![KPI Dashboard](D:\ai_knowledge_graph\assets\dashboard_overview.jpeg) | ![Chat Interface](D:\ai_knowledge_graph\assets\chat_interface.jpeg) |
+| ![KPI Dashboard](assets\dashboard_overview.jpeg) | ![Chat Interface](assets\chat_interface.jpeg) |
 
 | 3. Advanced Analytics | 4. Knowledge Graph (Neo4j) |
 | :---: | :---: |
-| ![Analytics](D:\ai_knowledge_graph\assets\analytics_view.jpeg) | ![Full Graph](D:\ai_knowledge_graph\assets\neo4j_graph_full.jpeg) |
+| ![Analytics](assets\analytics_view.jpeg) | ![Full Graph](assets\neo4j_graph_full.jpeg) |
 
 ### 🔍 Deep Dive: Graph Architecture
-![Zoomed Graph](D:\ai_knowledge_graph\assets\neo4j_graph_zoom.jpeg)
+![Zoomed Graph](assets\neo4j_graph_zoom.jpeg)
 *Detailed view of node relationships and metadata mapping within the Neo4j AuraDB instance.*
 
 ---
