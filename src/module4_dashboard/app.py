@@ -145,7 +145,7 @@ if "onboard_q" in st.session_state:
         st.session_state.messages.append({"role": "assistant", "content": answer})
     st.rerun()
 
-if user_input := st.chat_input("Input complex technical query..."):
+if user_input := st.chat_input("why is gopro failing..."):
     st.session_state.messages.append({"role": "user", "content": user_input})
     with st.spinner("🤖 Scoping Technical Matrix..."):
         engine = load_engine()
