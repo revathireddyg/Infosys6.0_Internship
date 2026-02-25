@@ -9,7 +9,7 @@ Module 4 is the presentation layer of the Enterprise Intelligence system. Built 
 * **GraphRAG Chat Interface:** A natural language portal that allows users to query the Neo4j Knowledge Graph without writing Cypher code.
 * **Real-time Data Streaming:** Direct connection to the Neo4j AuraDB cloud instance.
 
-[Image of a professional dashboard showing various data visualizations like bar charts, pie charts, and key performance indicators]
+
 
 ## 🎨 UI Architecture
 The dashboard is organized into three primary sections:
