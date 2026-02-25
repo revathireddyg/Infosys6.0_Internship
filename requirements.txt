@@ -1,19 +1,14 @@
-# CORE UTILITIES
-python-dotenv
-pandas
-tqdm
+# Use your stable local versions
+streamlit==1.54.0
+altair==6.0.0
+pandas==2.3.3
+plotly==6.5.2
+python-dotenv==1.2.1
 
-# NEO4J & DATABASE
-neo4j
-
-# AI & RAG (LANGCHAIN CORE & PARTNERS)
-langchain
-langchain-core
-langchain-community
-langchain-groq
-langchain-huggingface
-sentence-transformers
-
-# DASHBOARD & VISUALIZATION
-streamlit
-plotly
+# AI & Graph
+langchain==1.2.10
+langchain-community==0.4.1
+langchain-groq==1.1.2
+langchain-huggingface==1.2.0
+neo4j==6.1.0
+sentence-transformers==5.2.3
