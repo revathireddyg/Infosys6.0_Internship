@@ -31,9 +31,8 @@ The application is deployed and accessible via Streamlit Community Cloud:
 | :---: | :---: |
 | ![Analytics](assets/analytics_view.jpeg) | ![Full Graph](assets/neo4j_graph_full.jpeg) |
 
-
 ### 🔍 Deep Dive: Graph Architecture
-![Zoomed Graph](assets\neo4j_graph_zoom.jpeg)
+![Zoomed Graph](assets/neo4j_graph_zoom.jpeg)
 *Detailed view of node relationships and metadata mapping within the Neo4j AuraDB instance.*
 
 ---
