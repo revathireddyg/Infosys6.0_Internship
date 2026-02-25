@@ -119,7 +119,7 @@ with k2:
 with k3: 
     st.metric("System Engine", "GraphRAG v5")
 with k4: 
-    st.metric("Accuracy", "100%", delta="Grounding Verified")
+    st.metric("Accuracy", "97%", delta="Grounding Verified")
 
 st.divider()
 
