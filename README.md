@@ -52,6 +52,7 @@ ai_knowledge_graph/
 │   └── module4_dashboard/  # Streamlit UI and Interactive Analytics
 ├── requirements.txt        # Production dependencies (Python 3.13+)
 └── .env                    # Local environment variables
+```
 
 ---
 **Next Step:** [Go to Module 1.1: Preprocessing ➡️](../module1_preprocess\README.md)
