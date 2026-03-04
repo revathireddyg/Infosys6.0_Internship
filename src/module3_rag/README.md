@@ -37,7 +37,7 @@ chain = GraphCypherQAChain.from_llm(
     verbose=True,
     allow_dangerous_requests=True # Required for dynamic Cypher execution
 )
-
+```
 
 ---
 **Next Step:** [Go to Module 4: Dashboard ➡️](../module4_dashboard/README.md)
