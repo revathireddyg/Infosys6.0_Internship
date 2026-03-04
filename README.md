@@ -55,4 +55,4 @@ ai_knowledge_graph/
 ```
 
 ---
-**Next Step:** [Go to Module 1.1: Preprocessing ➡️](../module1_preprocess\README.md)
+**Next Step:** [Go to Module 1.1: Preprocessing ➡️](src/module1_preprocess/README.md)

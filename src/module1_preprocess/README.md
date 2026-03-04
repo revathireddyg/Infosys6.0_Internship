@@ -15,4 +15,4 @@ The Preprocessing module is responsible for the "ETL" (Extract, Transform, Load)
 * `sentiment_analysis.py`: Logic for automated sentiment categorization.
 
 ---
-**Next Step:** [Go to Module 1.2: Schema Modeling ➡️](../module1_schema/README.md)
+**Next Step:** [Go to Module 1.2: Schema Modeling ➡️](../module1_schema/README.md) 
