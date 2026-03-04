@@ -39,6 +39,7 @@ if user_input := st.chat_input("Ask about the tickets..."):
         response = rag_chain.run(user_input)
         st.write(response)
 
+```
 
 ---
-**Next Step:** [Go to: Main page ➡️](..README.md)   
+**Main Page:** [Go back to Home ➡️](../../README.md)
