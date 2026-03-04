@@ -39,3 +39,5 @@ chain = GraphCypherQAChain.from_llm(
 )
 
 
+---
+**Next Step:** [Go to Module 4: Dashboard ➡️](../module4_dashboard/README.md)

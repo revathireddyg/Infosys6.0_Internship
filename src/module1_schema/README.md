@@ -26,3 +26,6 @@ REQUIRE c.customer_id IS UNIQUE;
 CREATE INDEX IF NOT EXISTS FOR (t:Ticket) 
 ON (t.priority);
 
+
+---
+**Next Step:** [Go to Module 2: Extraction ➡️](../module2_extraction/README.md)

@@ -40,3 +40,5 @@ if user_input := st.chat_input("Ask about the tickets..."):
         st.write(response)
 
 
+---
+**Next Step:** [Go to: Main page ➡️](..README.md)   

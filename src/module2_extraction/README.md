@@ -46,3 +46,7 @@ MERGE (t)-[:CATEGORIZED_AS]->(cat)
 graph_manager.py: The Python driver that connects to Neo4j and executes the Cypher batches.
 
 extraction_logic.py: Logic for mapping DataFrame rows to graph properties.
+
+
+---
+**Next Step:** [Go to Module 3: RAG pipeline ➡️](../module3_rag/README.md)  
